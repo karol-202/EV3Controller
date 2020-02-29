@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="pl.karol202.ev3controller">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation|screenSize">
+        <activity android:name=".activity.ActivityMain" android:label="@string/app_name" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ActivityProfiles" android:label="@string/title_activity_profiles" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activity.ActivityControls" android:label="@string/title_activity_controls" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activity.ActivityEditProfile" android:label="@string/title_activity_edit_profile" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activity.ActivityEditControlButton" android:label="@string/title_activity_edit_control_button" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activity.ActivityEditBounds" android:label="@string/title_activity_edit_bounds" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activity.ActivityCommands" android:label="@string/title_activity_commands" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activity.ActivityEditCommandMotor" android:label="@string/title_activity_edit_command" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activity.ActivityEditCommandMotorStop" android:label="@string/title_activity_edit_command" android:configChanges="keyboardHidden|orientation|screenSize"/>
+    </application>
+</manifest>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    			android:layout_height="fill_parent" tools:context=".activity.ActivityEditCommandMotor">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:text="@string/text_motor_port"
+            android:id="@+id/text_motor_port"
+			android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+			android:layout_alignBaseline="@+id/spinner_motor_port"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_motor_port"
+            android:layout_alignParentTop="true"
+            android:entries="@array/motors"
+            android:layout_toRightOf="@+id/text_motor_port"
+            android:layout_toEndOf="@id/text_motor_port"/>
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/text_motor_speed"
+			android:id="@+id/text_motor_speed"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_alignBaseline="@+id/edit_motor_speed"/>
+	<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:ems="10"
+			android:id="@+id/edit_motor_speed" android:layout_below="@+id/spinner_motor_port"
+			android:layout_toRightOf="@+id/text_motor_speed" android:layout_toEndOf="@+id/text_motor_speed"
+			android:layout_toLeftOf="@+id/text_motor_speed_current" android:singleLine="true"/>
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/text_motor_speed_current"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentEnd="true" android:layout_alignBaseline="@+id/edit_motor_speed"
+			android:text="@string/text_motor_speed_unit"/>
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/text_motor_rotation"
+			android:id="@+id/text_motor_rotation"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentLeft="true"
+			android:layout_alignBaseline="@+id/toggle_motor_limit"/>
+	<ToggleButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/button_motor_limit"
+			android:id="@+id/toggle_motor_limit"
+			android:textOff="@string/button_motor_limit_off"
+			android:textOn="@string/button_motor_limit_on"
+			android:layout_toEndOf="@id/text_motor_rotation"
+			android:layout_toRightOf="@+id/text_motor_rotation"
+			android:layout_toLeftOf="@+id/toggle_motor_direction"
+			android:layout_below="@+id/edit_motor_speed"/>
+	<ToggleButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/button_motor_direction"
+			android:id="@+id/toggle_motor_direction"
+			android:textOff="@string/button_motor_direction_off"
+			android:textOn="@string/button_motor_direction_on"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"
+			android:minWidth="150dp"
+			android:layout_alignBaseline="@+id/toggle_motor_limit"/>
+	<ToggleButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/button_motor_relation"
+			android:id="@+id/toggle_motor_relation"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentEnd="true"
+			android:layout_below="@+id/toggle_motor_limit"
+			android:textOff="@string/button_motor_relation_off"
+			android:textOn="@string/button_motor_relation_on"/>
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/text_motor_limit_degrees"
+			android:id="@+id/text_motor_limit_degrees"
+			android:layout_toLeftOf="@+id/toggle_motor_relation"
+			android:layout_alignBaseline="@+id/edit_motor_limit"/>
+	<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:ems="10"
+			android:id="@+id/edit_motor_limit"
+			android:layout_below="@+id/toggle_motor_limit"
+			android:layout_alignBaseline="@+id/toggle_motor_relation"
+			android:layout_toLeftOf="@+id/text_motor_limit_degrees"
+			android:singleLine="true" android:layout_alignParentStart="true" android:layout_alignParentLeft="true"/>
+	<Switch
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/switch_motor_brake"
+			android:id="@+id/switch_motor_brake"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_below="@+id/edit_motor_limit"
+			android:layout_marginTop="10dp"
+			android:textAppearance="?android:attr/textAppearanceMedium" android:checked="false"/>
+	<Switch
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/switch_motor_immediately"
+			android:id="@+id/switch_motor_immediately"
+			android:layout_below="@+id/switch_motor_brake"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_marginTop="10dp"
+			android:textAppearance="?android:attr/textAppearanceMedium" android:checked="false"/>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_connect">Połącz</string>
+    <string name="item_profiles">Profile</string>
+    <string name="item_stop_motors">Zatrzymaj silniki</string>
+    <string name="item_add_profile">Dodaj profil</string>
+    <string name="item_add_control">Dodaj kontrolkę</string>
+    <string name="item_add_commands_list">Dodaj listę komend</string>
+    <string name="item_add_command">Dodaj komendę</string>
+    <string name="item_profiles_done">Gotowe</string>
+    <string name="item_profile_done">Gotowe</string>
+    <string name="item_controls_done">Gotowe</string>
+    <string name="item_control_done">Gotowe</string>
+    <string name="item_commands_list_done">Gotowe</string>
+    <string name="item_command_done">Gotowe</string>
+    <string name="item_expression_done">Gotowe</string>
+    <string name="item_profile_delete">Usuń profil</string>
+    <string name="item_control_delete">Usuń kontrolkę</string>
+    <string name="item_command_delete">Usuń komendę</string>
+    <string name="item_expression_delete">Usuń wyrażenie</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_connected">Połączono</string>
+    <string name="message_disconnected">Rozłączono</string>
+    <string name="message_exception">Błąd</string>
+    <string name="message_not_connected">Nie połączono</string>
+    <string name="message_already_connected">Już połączono</string>
+    <string name="message_motors_saved">Ustawienia silników zapisane</string>
+    <string name="message_control_saved">Kontrolka zapisana</string>
+    <string name="message_controls_saved">Kontrolki zapisane</string>
+    <string name="message_commands_list_error">Lista komedn zawiera błąd!</string>
+</resources>

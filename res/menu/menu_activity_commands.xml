@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_add_command"
+          android:icon="@drawable/ic_new"
+          android:title="@string/item_add_command"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/item_apply_commands"
+          android:icon="@drawable/ic_accept"
+          android:title="@string/item_commands_list_done"
+          android:showAsAction="ifRoom"/>
+</menu>

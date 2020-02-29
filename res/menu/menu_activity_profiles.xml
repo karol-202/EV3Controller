@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_add_profile"
+          android:icon="@drawable/ic_new"
+          android:title="@string/item_add_profile"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/item_apply_profiles"
+          android:icon="@drawable/ic_accept"
+          android:title="@string/item_profiles_done"
+          android:showAsAction="ifRoom"/>
+</menu>

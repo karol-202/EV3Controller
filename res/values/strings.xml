@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_ip">Wpisz numer IP robota:</string>
+    <string name="text_disconnect">Czy na pewno chcesz rozłączyć?</string>
+    <string name="text_delete">Czy na pewno chcesz usunąć profil?</string>
+    <string name="text_profile_name">Podaj nazwę profilu:</string>
+    <string name="text_control_name">Nazwa:</string>
+    <string name="text_not_connected">Nie połączono</string>
+    <string name="text_control_bounds">Pozycja:</string>
+    <string name="text_motor_port">Port silnika:</string>
+    <string name="text_motor_speed">Prędkość:</string>
+    <string name="text_motor_speed_unit">°/s</string>
+    <string name="text_motor_rotation">Obrót:</string>
+    <string name="text_motor_limit">Wielkość obrotu:</string>
+    <string name="text_motor_limit_degrees">°</string>
+    <string name="button_connect">Połącz</string>
+    <string name="button_profile_name">Akceptuj</string>
+    <string name="button_control_edit_field">Edytuj</string>
+    <string name="button_accept_control">Akceptuj</string>
+    <string name="button_motors_ok">OK</string>
+    <string name="button_control_button_click">Działanie przyciśnięcia:</string>
+    <string name="button_control_button_release">Działanie zwolnienia:</string>
+    <string name="button_motor_limit">Limit</string>
+    <string name="button_motor_limit_off">Limit</string>
+    <string name="button_motor_limit_on">Bez limtu</string>
+    <string name="button_motor_direction">Kierunek</string>
+    <string name="button_motor_direction_off">Do przodu</string>
+    <string name="button_motor_direction_on">Do tyłu</string>
+    <string name="button_motor_relation">Ruch bezwzględny</string>
+    <string name="button_motor_relation_off">Względem stanu aktualnego</string>
+    <string name="button_motor_relation_on">Względem zera</string>
+	<string name="switch_motor_brake">Zablokuj po wykonaniu</string>
+    <string name="switch_motor_lock">Zablokuj obrót</string>
+	<string name="switch_motor_immediately">Nie czekaj na wykonanie</string>
+    <string name="unknow">Nieustalono</string>
+    <string name="name_control_button">Przycisk</string>
+    <string name="name_command_motor">Ruch silnikiem</string>
+    <string name="name_command_motor_stop">Zatrzymanie silnika</string>
+    <string name="name_expression_constant_integer_positive">Stała (liczba naturalna)</string>
+    <string name="name_expression_constant_logic">Stała (war. logiczna)</string>
+    <string name="name_new_control">Nowa kontrolka</string>
+    <string name="name_new_profile">Nowy profil</string>
+    <string-array name="profile_properties">
+        <item>Nazwa</item>
+        <item>Rodzaje silników</item>
+        <item>Kontrolki</item>
+    </string-array>
+    <string-array name="motors">
+        <item>Silnik A</item>
+        <item>Silnik B</item>
+        <item>Silnik C</item>
+        <item>Silnik D</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">EV3Controller</string>
+    <string name="title_activity_profiles">Profile robotów</string>
+    <string name="title_activity_controls">Kontrolki</string>
+    <string name="title_activity_commands">Komendy</string>
+    <string name="title_activity_edit_profile">Dodaj profil</string>
+    <string name="title_activity_edit_control_button">Edytuj przycisk</string>
+    <string name="title_activity_edit_bounds">Edytuj wymiary</string>
+    <string name="title_activity_edit_command">Edytuj komendę</string>
+    <string name="title_activity_edit_expression">Edytuj wyrażenie</string>
+
+    <string name="title_dialog_connect">Połącz z robotem</string>
+    <string name="title_dialog_disconnect">Rozłącz</string>
+    <string name="title_dialog_delete">Usuń profil</string>
+    <string name="title_dialog_profile_name">Zmień nazwę profilu</string>
+    <string name="title_dialog_profile_motors">Ustaw typy motorów</string>
+    <string name="title_dialog_controls_types">Wybierz typ kontrolki</string>
+    <string name="title_dialog_commands_types">Wybierz typ komendy</string>
+    <string name="title_dialog_expressions_types">Wybierz typ wyrażenia</string>
+</resources>
